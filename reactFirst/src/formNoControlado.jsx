@@ -27,7 +27,7 @@ const FormNoControlado = () => {
             setParrafo("Error en el nombre de la tarea");
         } 
         else {
-            setParrafo("Todo correcto")
+            setParrafo(null)
             console.log("Enviando objetos al server...")
         }
     }
