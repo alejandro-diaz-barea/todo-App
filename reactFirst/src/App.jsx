@@ -1,4 +1,4 @@
-import FormNoControlado from "./formNoControlado.jsx";
+import FormularioControlado from "./formularioControlado.jsx";
 
 function App() {
 
@@ -6,8 +6,9 @@ function App() {
   return (
     <>
     <div className="Container"></div>
-    <h1>Formulario no controlado</h1>
-    <FormNoControlado></FormNoControlado>
+    <h1>Formulario controlado</h1>
+    {/* <FormNoControlado></FormNoControlado> */}
+    <FormularioControlado></FormularioControlado>
     
 
         
